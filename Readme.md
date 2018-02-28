@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Natasha Yugay](https://up.htmlacademy.ru/htmlcss/20/user/622169).
-* Наставник: [Ольга Вадясова]
+* Наставник: [Ольга Вадясова](https://htmlacademy.ru/profile/ad0v0).
 
 ---
 
