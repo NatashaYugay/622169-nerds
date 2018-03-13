@@ -9,7 +9,7 @@
       <header class="main-header">
         <nav class="main-navigation">
             <a class="logo">
-                <img src="img/logo-nerds.svg" weight="160" height="65" alt="Логотип Нердс">
+                <img src="img/logo-nerds.svg" width="160" height="65" alt="Логотип Нердс">
             </a>
             <ul class="site-navigation">
                 <li>
@@ -104,7 +104,7 @@
                 </ul>
             </section>
             <section class="about-us-since">
-                <img src="img/illustration-nerds.jpg" weight="360" height="208" alt="Логотип Нердс">
+                <img src="img/illustration-nerds.jpg" width="360" height="208" alt="Логотип Нердс">
                 <p class="about-us-stats">с 2004 года любим точность во всем:</p>
                 <ul class="value">
                     <li class="value-item">
@@ -151,29 +151,8 @@
       </main>
       
       <footer>
-          <div class="text-us">
-              <form class="text-form" action="https://echo.htmlacademy.ru" method="post">
-                  <p class="text-us-header">Напишите нам</p>
-                  <ul class="text-us-list">
-                      <li>
-                          <label for="put-your-name">Ваше имя:</label><br>
-                          <input type="text" name="your-name" value="Имя Фамилия" id="put-your-name">
-                      </li>
-                      <li>
-                          <label for="put-your-email">Ваш e-mail:</label><br>
-                          <input type="text" name="your-email" value="email@example.com" id="put-your-email">
-                      </li>
-                      <li>
-                          <label for="put-your-comment">Текст письма:</label><br>
-                          <textarea name="your-comment" id="put-your-comment" rows="10">В свободной форме</textarea>
-                      </li>
-                  </ul>
-                  <button class="button" type="submit">Отправить</button>
-              </form>
-              <button class="modal-close" type="button">Закрыть</button>
-          </div>
           <section class="address">
-              <p class="studio-name">NЁRDS DESIGN STUDIO</p><address>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</address>
+              <p class="studio-name">NЁRDS DESIGN STUDIO</p><address>191186, Санкт-Петербург,ул. Б. Конюшенная, д. 19/8</address>
               <a href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
               <a class="button" href="#">напишите нам</a> 
           </section>
@@ -185,5 +164,27 @@
               <p>Скидка 10% для друзей из социальных сетей</p>   
           </div>
       </footer>
+      
+      <div class="modal-user-text">
+        <form class="user-text-form" action="https://echo.htmlacademy.ru" method="post">
+            <p class="text-header">Напишите нам</p>
+            <ul class="user-text-list">
+                <li>
+                    <label for="name-field">Ваше имя:</label>
+                    <input type="text" id="name-field" name="user-text-name" placeholder="Имя Фамилия">
+                </li>
+                <li>
+                    <label for="email-field">Ваш e-mail:</label>
+                    <input type="text"  id="email-field" name="user-text-email" placeholder="email@example.com">
+                </li>
+                <li>
+                    <label for="comment-field">Текст письма:</label>
+                    <textarea  id="comment-field" name="user-text-comment" rows="10" placeholder="В свободной форме"></textarea>
+                </li>
+            </ul>
+            <button class="button" type="submit">Отправить</button>
+        </form>
+        <button class="modal-close" type="button">Закрыть</button>
+      </div>
     </body>
 </html>
