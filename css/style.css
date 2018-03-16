@@ -9,8 +9,7 @@ body {
     color: #283136;
     
     background-color: #ffffff;
-    background-position: top center;
-    background-repeat: no-repeat;  }
+}
 
 a {
     text-decoration: none;  
@@ -22,9 +21,9 @@ a {
     line-height: 18px;
     font-weight: 500;
     text-transform: uppercase;
+    vertical-align: middle;
     color: #ffffff;
     
-    vertical-align: center;
     border: none;
 }
 
@@ -90,11 +89,6 @@ a {
     color: #fb565a;
 }
 
-.site-navigation a:visited,
-.user-block a:visited {
-    color: rgba(0,0,0,0.3);
-}
-
 .site-navigation a:active,
 .user-block a:active {
     color: #000000;
@@ -111,19 +105,20 @@ a {
     font-weight: 500;
 }
 
-.slider-inner{
-    background-image: url("img/slide-1.png")
+.slider-item-1{
+    background-image: url("../img/slide-1.png")
 }
-.slider-inner{
-    background-image: url("img/slide-2.png")
+.slider-item-2{
+    background-image: url("../img/slide-2.png")
 }
-.slider-inner{
-    background-image: url("img/slide-3.png")
+.slider-item-3{
+    background-image: url("../img/slide-3.png")
 }
 
 .services-item {
     list-style: none;
 }
+
 .services-item h3 {
     font-size: 24px;
     line-height: 30px;
@@ -138,6 +133,7 @@ a {
     font-weight: 500;
     color: #000000;
 }
+
 .about-us-services,
 .about-us-stats {
     font-size: 16px;
@@ -150,6 +146,7 @@ a {
 .value-item {
     list-style: none;
 }
+
 .value-stats {
     font-size: 45px;
     line-height: 45px;
@@ -185,6 +182,7 @@ a {
 .user-text-list li {
     list-style: none;
 }
+
 .user-text-list label {
     font-size: 16px;
     line-height: 18px;
@@ -203,6 +201,7 @@ a {
     font: inherit;
     border: 2px solid #b4b9bb;
 }
+
 .user-text-list input:focus,
 .user-text-list textarea:focus {
     font: inherit;
@@ -229,7 +228,7 @@ user-text-list label:focus {
     background-color: #eeeeee;      
 }
 
-.headline {
+.filter-headline {
     font-size: 18px;
     line-height: 30px;
     font-weight: 700;
@@ -243,9 +242,11 @@ user-text-list label:focus {
     font-weight: 400;
     text-transform: uppercase;   
 }
+
 .filter-option {
     list-style: none;
 }
+
 .features {
     list-style: none;  
 }
@@ -253,26 +254,28 @@ user-text-list label:focus {
 .filter-button {
     font-size: 16px;
     line-height: 18px;
-    font-weight:500;
+    font-weight: 500;
     text-transform: uppercase;
-    color:#000000;
+    color: #000000;
     background-color: #eeeeee;
 }
+
 .filter-button:hover,
 .filter-button:focus {
     font-size: 16px;
     line-height: 18px;
-    font-weight:500;
+    font-weight: 500;
     text-transform: uppercase;
-    color:#000000;
+    color: #000000;
     background-color: #dfdfdf;
 }
+
 .filter-button:active {
     font-size: 16px;
     line-height: 18px;
-    font-weight:500;
+    font-weight: 500;
     text-transform: uppercase;
-    color:#000000;
+    color: #000000;
     background-color: #d5d5d5;
 }
 
@@ -283,13 +286,15 @@ user-text-list label:focus {
 .catalog-list li {
     list-style: none;  
 }
-.maket-name {
+
+.template-name {
     font-size: 18px;
     line-height: 30px;
-    font-weight:700;
+    font-weight: 700;
     text-transform: uppercase;
-    color:#000000;  
+    color: #000000;  
 }
+
 .catalog-pop-up p {
     line-height: 18px; 
 }
@@ -298,50 +303,37 @@ user-text-list label:focus {
     list-style: none;
 }
 
-.pagination-item {
+.pagination-item a {
     font-size: 16px;
     line-height: 18px;
-    font-weight:500;
+    font-weight: 500;
     text-transform: uppercase;
-    color:#000000;  
+    color: #000000; 
+    background-color: #eeeeee;
 }
 
+.pagination-item-current a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000000; 
+    
+    border: 3px solid #dbdbdb;
+}
 
+.address address {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #666666;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
+.address .phone {
+    list-style: none;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #666666;
+}
