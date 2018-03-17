@@ -92,7 +92,6 @@ a {
 .site-navigation a:active,
 .user-block a:active {
     color: #000000;
-    text-decoration: underline #fb565a;
 }
 
 .promo {
