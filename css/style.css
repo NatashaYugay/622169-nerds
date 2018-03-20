@@ -336,3 +336,157 @@ user-text-list label:focus {
     font-weight: 400;
     color: #666666;
 }
+
+.main-header {
+    display: flex;
+    width: 100%;
+    min-height: 115px;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.main-navigation {
+    width: 1160px;
+    display: flex;
+    min-height: 115px;
+    justify-content: space-between;
+}
+.main-navigation .logo {
+    margin:0;
+    padding: 0;
+    width: 160px;
+    height: 65px;
+    background-color: bisque;
+}
+
+.main-navigation .site-navigation {
+    margin: 0;
+    padding: 0;
+    width: 440px;
+    min-height: 12px;
+    background-color: bisque;
+}
+.main-navigation .user-block {
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    min-height: 12px;
+    background-color: bisque;
+}
+
+.services {
+    display: flex;
+    width: 100%;
+    min-height: 510px;
+    background-color: aquamarine; 
+    justify-content: center;
+}
+
+.services .services-list {
+    display: flex;
+    width: 1160px;
+    padding-left: 20px;
+    padding-right: 80px;
+    min-height: 350px;
+    justify-content: space-between;
+}
+
+.services .services-item {
+    margin:0;
+    padding: 0;
+    width: 300px;
+    min-height: 350px;
+    background-color: bisque;
+}
+
+.about-us {
+    display: flex;
+    width: 100%;
+    min-height: 525px;
+    background-color: aquamarine; 
+    justify-content: center; 
+}
+
+.wrap-about-us {
+    display: flex;
+    width: 1160px;
+    min-height: 530px;
+    justify-content: space-between;  
+}
+
+.about-us-main {
+    margin:0;
+    padding: 0;
+    width: 660px;
+    min-height: 360px;
+    background-color: bisque;
+}
+
+.about-us-since {
+    margin:0;
+    padding: 0;
+    width: 360px;
+    min-height: 410px;
+    background-color: bisque;  
+}
+
+.partners {
+    display: flex;
+    width: 100%;
+    min-height: 183px;
+    background-color: aquamarine; 
+    justify-content: center;  
+}
+.partners-list {
+    display: flex;
+    width: 1160px;
+    min-height: 86px;
+    justify-content: space-between; 
+}
+.partners-item {
+    margin:0;
+    padding: 0;
+    width: 260px;
+    min-height: 86px;
+    background-color: bisque; 
+}
+
+h1 {
+    margin:0;
+    margin-bottom: 118px;
+    padding: 0;
+}
+
+.wrap-main-container {
+    display: flex;
+    width: 100%;
+    min-height: 1995px;
+    background-color: aquamarine;
+    justify-content: center;
+}
+.wrap-catalog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters {
+    width: 260px;
+    min-height: 770px;
+    background-color: bisque;
+}
+.wrap-sort-catalog {
+    width: 760px;
+    min-height: 1995px; 
+    background-color: bisque;
+}
+
+
+
+
+
+
+
+
+    
+
+
