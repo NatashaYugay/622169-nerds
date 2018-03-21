@@ -361,6 +361,7 @@ user-text-list label:focus {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+    outline: 1px solid yellow;
 }
 .main-navigation {
     text-transform: uppercase;
@@ -388,6 +389,133 @@ user-text-list label:focus {
     margin-left: auto;
     margin-right: 0;
 }
+
+.services-list {
+    margin: 0;
+    padding:0;
+    display: flex;
+    margin-bottom: 80px;
+}
+.services-list .services-item {
+    margin: 0;
+    margin-right: 100px;
+    padding: 0;
+    width: 300px;
+    min-height: 350px;
+    outline: 1px solid green;
+}
+.services-item:nth-child(3) {
+    margin-right: 60px;
+}
+
+.about-us {
+    display:flex;
+    margin-bottom: 80px;
+}
+.about-us .about-us-main {
+    margin: 0;
+    padding: 0;
+    width: 680px;
+    min-height: 370px;
+    outline: 1px solid green;
+}
+.about-us .about-us-since{
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
+    width: 380px;
+    min-height: 407px;
+    outline: 1px solid green; 
+}
+
+.partners-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.partners-list .partner-item {
+    margin: 0;
+    margin-bottom: 42px;
+    padding: 0;
+    width: 260px; 
+    min-height: 83px;
+    outline: 1px solid green;
+}
+.footer {
+    width: 100%;
+    min-height: 512px;
+    display: flex;
+    outline: 1px solid red;  
+}
+.address {
+    margin: 0;
+    padding: 0;
+    width: 319px;
+    min-height: 308px;
+    outline: 1px solid green;
+}
+.footer-social {
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    min-height: 64px;
+    outline: 1px solid green;
+}
+
+.page-title {
+    margin: 0;
+    margin-top: 11px;
+    margin-bottom: 117px;
+    padding: 0;
+}
+
+.promo {
+    background-color: #eeeeee;
+}
+
+.wrap-filters-catalog {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.filters {
+    margin: 0;
+    margin-bottom: auto;
+    padding: 0;
+    width: 260px;
+    min-height: 775px;
+    outline: 1px solid green;
+}
+.wrap-sort-catalog {
+    margin: 0;
+    margin-bottom: 60px;
+    padding: 0;
+    width: 760px;
+    min-height: 2100px;
+    outline: 1px solid green;
+}
+
+.catalog-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+.catalog-list .catalog-item {
+    width: 360px;
+    margin-bottom: 33px;
+    outline: 1px solid green;
+}
+.pagination-list {
+    margin: 0;
+    padding: 0;   
+}
+
+
+
+
 
 
 
