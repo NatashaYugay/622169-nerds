@@ -351,25 +351,26 @@ user-text-list label:focus {
 }
 
 .main-header {
-    display: flex;
     width: 100%;
     min-height: 95px;
+    background-color: #eeeeee;
     outline: 1px solid red;
 }
-.main-header .wrap-container {
-    display: flex;
+.container {
     width: 1200px;
+    margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 0 auto;
 }
-main-header .main-navigation {
-    justify-content: space-between;
+.main-navigation {
+    text-transform: uppercase;
+    display: flex;
 }
 .main-navigation .logo {
     width: 160px;
     height: 66px;
     outline: 1px solid green;
+    margin-right: 200px;
 }
 .main-navigation .site-navigation {
     margin: 0;
@@ -384,7 +385,10 @@ main-header .main-navigation {
     width: 160px;
     min-height: 15px;
     outline: 1px solid green;
+    margin-left: auto;
+    margin-right: 0;
 }
+
 
 
 
