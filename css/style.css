@@ -155,13 +155,8 @@ input[type="radio"].visually-hidden {
  .user-block .login-link {
     display: inline-block;
     margin-top: 80px;
-    margin-left: 50px;
-}
-
-.login-link::before {
- vertical-align: middle;
- margin-right: 50px; 
- content: "";
+    margin-right: 100px;
+    vertical-align: middle;
 }
 
 .site-navigation a:hover,
